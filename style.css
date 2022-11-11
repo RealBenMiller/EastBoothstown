@@ -1024,7 +1024,7 @@ body.view-control-buttons .viewControlButton {
 
 .tooltip .tooltiptext {
 	visibility: hidden;
-	background-color: #888c90;
+	background-color: #c5003e;
 	color: #fff;
 	text-align: center;
 	width: 130px;
@@ -1067,5 +1067,5 @@ body.view-control-buttons .viewControlButton {
 	margin-left: -5px;
 	border-width: 5px;
 	border-style: solid;
-	border-color: #888c90 transparent transparent transparent;
+	border-color: #c5003e transparent transparent transparent;
 }
