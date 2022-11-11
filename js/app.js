@@ -81,26 +81,6 @@ document.querySelector('#HS12').addEventListener('click', function () {
 	let modal = document.getElementById('BoardTwelve');
 	modal.style.display = 'block';
 });
-document.querySelector('#HS13').addEventListener('click', function () {
-	let modal = document.getElementById('BoardThirteen');
-	modal.style.display = 'block';
-});
-document.querySelector('#HS14').addEventListener('click', function () {
-	let modal = document.getElementById('BoardFourteen');
-	modal.style.display = 'block';
-});
-document.querySelector('#HS15').addEventListener('click', function () {
-	let modal = document.getElementById('BoardFifteen');
-	modal.style.display = 'block';
-});
-document.querySelector('#HS16').addEventListener('click', function () {
-	let modal = document.getElementById('BoardSixteen');
-	modal.style.display = 'block';
-});
-document.querySelector('#HS17').addEventListener('click', function () {
-	let modal = document.getElementById('BoardSeventeen');
-	modal.style.display = 'block';
-});
 
 //CLOSING MODALS
 
@@ -183,41 +163,6 @@ window.addEventListener('click', function (event) {
 
 window.addEventListener('click', function (event) {
 	var modal1 = document.getElementById('BoardTwelve');
-	if (event.target == modal1) {
-		modal1.style.display = 'none';
-	}
-});
-
-window.addEventListener('click', function (event) {
-	var modal1 = document.getElementById('BoardThirteen');
-	if (event.target == modal1) {
-		modal1.style.display = 'none';
-	}
-});
-
-window.addEventListener('click', function (event) {
-	var modal1 = document.getElementById('BoardFourteen');
-	if (event.target == modal1) {
-		modal1.style.display = 'none';
-	}
-});
-
-window.addEventListener('click', function (event) {
-	var modal1 = document.getElementById('BoardFifteen');
-	if (event.target == modal1) {
-		modal1.style.display = 'none';
-	}
-});
-
-window.addEventListener('click', function (event) {
-	var modal1 = document.getElementById('BoardSixteen');
-	if (event.target == modal1) {
-		modal1.style.display = 'none';
-	}
-});
-
-window.addEventListener('click', function (event) {
-	var modal1 = document.getElementById('BoardSeventeen');
 	if (event.target == modal1) {
 		modal1.style.display = 'none';
 	}
