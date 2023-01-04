@@ -77,10 +77,6 @@ document.querySelector('#HS11').addEventListener('click', function () {
 	let modal = document.getElementById('BoardEleven');
 	modal.style.display = 'block';
 });
-document.querySelector('#HS12').addEventListener('click', function () {
-	let modal = document.getElementById('BoardTwelve');
-	modal.style.display = 'block';
-});
 
 //CLOSING MODALS
 
@@ -156,13 +152,6 @@ window.addEventListener('click', function (event) {
 
 window.addEventListener('click', function (event) {
 	var modal1 = document.getElementById('BoardEleven');
-	if (event.target == modal1) {
-		modal1.style.display = 'none';
-	}
-});
-
-window.addEventListener('click', function (event) {
-	var modal1 = document.getElementById('BoardTwelve');
 	if (event.target == modal1) {
 		modal1.style.display = 'none';
 	}
